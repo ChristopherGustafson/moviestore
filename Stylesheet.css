@@ -1,0 +1,330 @@
+@font-face{
+	font-family: logoFont;
+	src: url("Fonts/American Captain.ttf");
+}
+
+@font-face{
+	font-family: textFont;
+	src: url("Fonts/DroidSerif-Regular.ttf");
+}
+
+body{
+   background-color: #E1E2E3; 
+    
+}
+
+a{
+   text-decoration: none; 
+}
+
+nav{
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    box-shadow: 0 3px 3px #888888;
+    
+    padding: 5px;
+}
+
+#logo{
+    float: left;
+    
+    height: 36px;
+    margin: 0;
+    margin-top: 2px;
+    
+    border-radius: 2px;
+}
+     
+#logo a{
+    text-decoration: none;
+}
+
+#logo h2{
+    color: darkblue;
+    font-family: logoFont;
+    font-size: 40px; 
+    
+    text-align: center;
+    top: 0;
+    line-height: 40px;
+    margin: 0 4px;
+    
+    display: inline;
+    
+}
+
+#loginBar{
+    float: right;
+    padding: 2px;
+    height: 36px;
+    
+    margin-right: 1%;
+}
+
+#loginform{
+    height: 40px;
+}
+
+#loginFormContent{
+    margin-top: 4px;
+}
+
+.login{
+    padding: 4px;
+}
+
+#loggedinBar{
+    list-style: none;
+    float: right;
+    height: 100%;
+    margin: 0;
+}
+
+#loggedinBar li{
+    font-family: textFont;
+    font-size: 20px;
+    
+    float: right;
+    margin: 8px 0;
+    margin-right: 40px;
+}
+
+#loggedinBar li a:hover{
+    border-bottom: 2px solid darkblue;
+    cursor: pointer;
+}
+
+#loggedinBar li a{
+    color: darkblue;
+    text-decoration: none;
+}
+
+#loggedas{
+    float: right;
+}
+
+#logout{
+    float: right;
+    margin: 8px 0;
+    margin-right: 40px;
+}
+
+#logoutButton{
+    border: none;
+    background-color: transparent;
+    
+    color: darkblue;
+    font-family: textFont;
+    font-size: 20px;
+}
+
+#logoutButton:hover{
+    border-bottom: 2px solid darkblue;
+    cursor: pointer;
+}
+
+#searchbar{
+    background-color: white;
+    width: 60%;
+    height: 50px;
+    border-radius: 2px;
+    box-shadow: 3px 3px 3px #888888;
+    
+    margin: 0 auto;
+    vertical-align: middle;
+    
+    margin-top: 80px;
+    margin-bottom: 30px;
+    
+}
+
+#searchText{
+    width: 80%;
+    height: 24px;
+    
+    padding: 5px 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+    margin-left: 1%;
+    margin-right: 1.4%;
+}
+    
+#search{
+    width: 12%;
+    height: 34px;
+    
+    margin-top: 8px;
+    margin-left: 1%;
+    margin-right: 1%;
+    
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+
+main{
+    
+    width: 84%;
+    height: 600px;
+    margin-top: 100px;
+    
+
+    margin: 0 auto;
+}
+
+article{
+    background-color: white;
+    overflow: auto;
+    
+    padding: 0 20px;
+    margin-top: 20px;
+    
+    box-shadow: 3px 3px 3px #888888;
+}
+
+.Title{
+    float: left;
+    
+    font-family: Arial;
+    color: black;
+}
+
+.Price{
+    margin-right: 40px;
+    font-family: Arial;
+    float: right;
+    color: black;
+}
+
+.movieDescription{
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.AdToCart{
+    float: right;
+    height: 25px;
+    padding: 4px;
+    padding-top: 12px;
+    
+    margin-top: 14px;
+    margin-left: 10px;
+
+    background-color: grey;
+    border-radius: 4px;
+    color: white;
+    font-family: textFont;
+    
+}
+
+.AdToCart:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+.orderOverview{
+    font-family: Arial;
+    color: black;
+    
+   
+}
+
+.changeStatus{
+    margin-bottom: 10px;
+}
+
+.accForm{
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 30px;
+    
+    text-align: center;
+    background-color: white;
+    box-shadow: 3px 3px 3px #888888;
+    
+    overflow: auto;
+}
+
+h3, h5{
+    font-family: Arial;
+    color: black
+}
+
+.input{
+	width: 300px;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+        
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.publish{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.pageHeader{
+    margin-top: 100px;
+    text-align: center;
+    
+    font-size: 30px;
+}
+
+#placeOrder{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+
+#placeOrderButton{
+    width: 100%;
+    
+    padding: 20px;
+    text-align: center; 
+    border: none;
+    
+    background-color: grey;
+    font-family: Arial;
+    color: white;
+    
+    border-radius: 2px;
+    box-shadow: 3px 3px 3px #888888;
+}
+
+h4{
+    text-align: center;
+    font-family: Arial;
+}
+
+#a{
+ width: 1000px;
+    height: 400px;
+    background-color: black;
+    
+}
+
+
+#filler{
+    height: 400px;
+    width: 100%;
+}
